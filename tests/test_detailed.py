@@ -29,7 +29,7 @@ from transdecoder.pwm import PWM
 from transdecoder.longorfs import LongOrfsExtractor
 
 # Path to the original Perl implementation
-PERL_BIN_DIR = str(Path(__file__).parent.parent.parent)
+PERL_BIN_DIR = "/home/ubuntu/TransDecoder/original"
 
 
 def run_perl_cmd(cmd: str, cwd: str = None) -> str:

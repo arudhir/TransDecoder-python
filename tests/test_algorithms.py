@@ -35,7 +35,7 @@ from transdecoder.predict import TransDecoderPredictor
 TEST_DATA_DIR = Path(__file__).parent / "test_data"
 INPUT_DIR = TEST_DATA_DIR / "input"
 EXPECTED_DIR = TEST_DATA_DIR / "expected"
-PERL_BIN_DIR = str(Path(__file__).parent.parent.parent)
+PERL_BIN_DIR = "/home/ubuntu/TransDecoder/original"
 
 
 def run_perl_cmd(cmd: str, cwd: str = None) -> str:
