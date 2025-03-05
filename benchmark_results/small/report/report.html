@@ -1,0 +1,63 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>TransDecoder Benchmark Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .chart { margin: 20px 0; }
+        </style>
+    </head>
+    <body>
+        <h1>TransDecoder Benchmark Report</h1>
+        
+        <h2>LongOrfs Phase</h2>
+        <table>
+            <tr>
+                <th>Implementation</th>
+                <th>Execution Time (s)</th>
+                <th>Memory Usage (MB)</th>
+                <th>Success Rate (%)</th>
+            </tr>
+            <tr>
+                <td>Perl</td>
+                <td>0.07 ± 0.00</td>
+                <td>0.04 ± 0.07</td>
+                <td>100.0%</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>0.09 ± 0.00</td>
+                <td>0.17 ± 0.29</td>
+                <td>0.0%</td>
+            </tr>
+        </table>
+        
+        <div class="chart">
+            <img src="execution_time.png" alt="Execution Time Comparison" style="width: 100%;">
+        </div>
+        
+        <div class="chart">
+            <img src="memory_usage.png" alt="Memory Usage Comparison" style="width: 100%;">
+        </div>
+        
+        <div class="chart">
+            <img src="success_rate.png" alt="Success Rate Comparison" style="width: 100%;">
+        </div>
+        
+        <h2>Summary</h2>
+        <p>
+            <b>Performance Comparison:</b> Python vs Perl
+        </p>
+        <ul>
+            <li>Execution Time: Python is 0.82x slower than Perl for LongOrfs</li>
+            <li>Memory Usage: Python uses 0.25x more memory than Perl for LongOrfs</li>
+        </ul>
+    </body>
+    </html>
+    

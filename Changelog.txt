@@ -1,0 +1,7 @@
+# Changelog
+
+## [0.1.0] - 2023-03-05
+- Initial release of Python TransDecoder
+- Implemented core functionality: LongOrfs and Predict
+- Added comprehensive test suite
+- Added benchmarking against original Perl implementation

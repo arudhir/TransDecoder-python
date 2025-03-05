@@ -1,0 +1,4 @@
+,execution_time,execution_time,execution_time,execution_time,memory_usage,memory_usage,memory_usage,memory_usage,success
+,mean,std,min,max,mean,std,min,max,mean
+implementation,,,,,,,,,
+perl,0.07526683807373043,0.0005125107798540103,0.0749144554138183,0.0758547782897949,43690.666666666664,75674.45448322264,0,131072,1.0
